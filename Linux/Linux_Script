@@ -1,0 +1,8 @@
+#!/bin/bash
+cat 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | awk '{print $1, $2, $3, $4}' | grep 05 | grep AM
+cat 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | awk '{print $1, $2, $3, $4}' | grep 08 | grep AM 
+cat 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | awk '{print $1, $2, $3, $4}' | grep 02 | grep PM
+cat 0310_Dealer_schedule 0312_Dealer_schedule | awk '{print $1, $2, $3, $4}' | grep 08 | grep PM
+cat 0310_Dealer_schedule 0312_Dealer_schedule | awk '{print $1, $2, $3, $4}' | grep 11 | grep PM
+touch Dealers_working_during_losses
+

@@ -6,7 +6,7 @@ Kathleen Avvento
 The files in this repository were used to configure the network depicted below.
 
 ! https://drive.google.com/file/d/1hrlPIOM1ZgHDYPzvTu98XRsFrmfXLeHM/view?usp=sharing
-
+project 1 diagram file 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yml file may be used to install only certain pieces of it, such as ELK.
 InstallELk.yml
 ---
@@ -180,7 +180,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 https://drive.google.com/file/d/1tocOAkWUkbibOl7iEvcbDynniPZ4cJg8/view?usp=sharing
-
+docker ps file 
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
